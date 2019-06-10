@@ -1,0 +1,27 @@
+.md-header{
+	background-color: #F25C62;
+}
+
+h2{
+	font-weight: 500 !important;
+}
+
+a{
+	color: #F25C62 !important;
+}
+
+.md-nav__link{
+	color: #000 !important;
+}
+
+.md-nav__link--active{
+	color: #F25C62 !important;
+}
+
+#folder-structure li{
+	font-weight: bold;
+}
+
+.screenshot{
+	width: 300px;
+}
