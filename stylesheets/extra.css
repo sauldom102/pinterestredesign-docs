@@ -2,6 +2,12 @@
 	background-color: #F25C62;
 }
 
+@media only screen and (max-width: 76.1875em){
+	.md-nav__title.md-nav__title--site{
+		background-color: #F25C62 !important;
+	}
+}
+
 h2{
 	font-weight: 500 !important;
 }
@@ -22,6 +28,35 @@ a{
 	font-weight: bold;
 }
 
-.screenshot{
-	width: 300px;
+.screenshots-container{
+	width: 100%;
+	display:flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-start;
 }
+
+.screenshot{
+	border-radius: 10px;
+}
+
+.s-container{
+	flex: 1;
+}
+
+@media (max-width: 700px) {
+	.s-container + .s-container{
+		margin-top: 32px;
+	}
+}
+
+@media (min-width: 700px) {
+	.screenshots-container{
+		flex-direction: row;
+	}
+
+	.s-container + .s-container{
+		margin-left: 24px;
+	}
+}
+
